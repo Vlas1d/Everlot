@@ -1,0 +1,23 @@
+@import '../../var.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    height: 50px;
+
+    padding: 0px 30px;
+
+    background: $grey;
+
+    z-index: 999;
+
+    &__stats {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        margin-left: auto;
+    }
+}

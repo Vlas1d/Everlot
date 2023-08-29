@@ -1,0 +1,22 @@
+@import '../../../var';
+
+.cityLocation {
+    position: relative;
+
+    span {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 25px;
+        white-space: nowrap;
+        color: $greenLight;
+        text-shadow: 0px 0px 5px $greenLight;
+        opacity: 0;
+    }
+    &:hover {
+        span {
+            opacity: 1;
+        }
+    }
+}
